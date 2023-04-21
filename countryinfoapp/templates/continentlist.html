@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lista de continentes</title>
+</head>
+<body>
+    <h1>Lista de continentes</h1>
+    {% for obj in my_list_key %}
+        <p>{{ obj.sCode }} - {{ obj.sName }}</p>
+    {% endfor %}
+</body>
+</html>
